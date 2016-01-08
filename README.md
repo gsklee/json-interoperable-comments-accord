@@ -1,7 +1,7 @@
 JSONIC: JSON with Interoperable Comments
 ========================================
 
-This document attempts to specify a standards-compliant JSON format that enables **comments interoperability** with other data serialization formats (eg. [TOML](https://github.com/toml-lang/toml), YAML, XML). The specification is intended to be a reference for module authors, and the format is intended to be generated and consumed solely by programs. It is not designed to be read or written by humans directly.
+This document attempts to specify a standards-compliant JSON format that enables **comments interoperability** with other data serialization formats (eg. [TOML](https://github.com/toml-lang/toml), YAML, XML). The specification is intended to be a reference for module authors, and the format is intended to be generated and consumed solely by programs. While possible, it is not designed to be read or written by humans directly.
 
 Example
 -------
@@ -52,3 +52,10 @@ Example
   }
 }
 ```
+
+Motivations
+-----------
+
+### Why? Douglas Crockford said no comments in JSON...
+
+Indeed, JSON is intended to be a [lightweight data interchange format](http://www.json.org/), and [comments were barred from JSON](https://plus.google.com/+DouglasCrockfordEsq/posts/RK8qyGVaGSr) because Douglas didn't want to see IE conditional comments all over again to harm data interoperability. The problem is that JSON is being used nowadays in places beyond its original intentions.
