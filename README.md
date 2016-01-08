@@ -1,7 +1,7 @@
 JSONIC: JSON with Interoperable Comments
 ========================================
 
-This document attempts to specify a standards-compliant JSON format that enables **comments interoperability** with other data serialization formats (eg. [TOML](https://github.com/toml-lang/toml), YAML, XML). The specification is intended to be a reference for module authors, and the format is intended to be generated and consumed solely by programs. It should not be read or written by humans.
+This document attempts to specify a standards-compliant JSON format that enables **comments interoperability** with other data serialization formats (eg. [TOML](https://github.com/toml-lang/toml), YAML, XML). The specification is intended to be a reference for module authors, and the format is intended to be generated and consumed solely by programs. It is not designed to be read or written by humans directly.
 
 Example
 -------
