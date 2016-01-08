@@ -58,4 +58,6 @@ Motivations
 
 ### Why? Douglas Crockford said no comments in JSON...
 
-Indeed, JSON is intended to be a [lightweight data interchange format](http://www.json.org/), and [comments were barred from JSON](https://plus.google.com/+DouglasCrockfordEsq/posts/RK8qyGVaGSr) because Douglas didn't want to see IE conditional comments all over again to harm data interoperability. The problem is that JSON is being used nowadays in places beyond its original intentions.
+Indeed, [comments were barred from JSON](https://plus.google.com/+DouglasCrockfordEsq/posts/RK8qyGVaGSr) because Douglas didn't want to see IE conditional comments all over again. The problem is that JSON is being used nowadays in places beyond its original intentions.
+
+JSON is intended to be a [lightweight **data interchange** format](http://www.json.org/), and the absence of comments is a smart design decision because comments are not part of the actual data payload, and rogue parsing directives hidden inside comments can harm data interoperability. JSON, however, is not a great format for **system configuration**, especially when the configuration will grow in complexity as the system evolves over time, due to the exact same reason that it lacks the ability to add comments.
