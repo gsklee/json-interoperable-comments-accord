@@ -60,4 +60,32 @@ Motivations
 
 Indeed, [comments were barred from JSON](https://plus.google.com/+DouglasCrockfordEsq/posts/RK8qyGVaGSr) because Douglas didn't want to see IE conditional comments all over again. The problem is that JSON is being used nowadays in places beyond its original intentions.
 
-JSON is intended to be a [lightweight **data interchange** format](http://www.json.org/), and the absence of comments is a smart design decision because comments are not part of the actual data payload, and rogue parsing directives hidden inside comments can harm data interoperability. JSON, however, is not a great format for **system configuration**, especially when the configuration will grow in complexity as the system evolves over time, due to the exact same reason that it lacks the ability to add comments.
+JSON is intended to be a [lightweight **data interchange** format](http://www.json.org/), and the absence of comments is a smart design decision to serve this purpose since comments are not part of the actual data payload, and rogue parsing directives hidden inside comments can pose harm to data interoperability.
+
+JSON, however, is not a great format for **system configuration**. Configuration files are often regarded as part of the codebase - while data are not - and grow in complexity as the underlying system evolves over time. The lack of ability to add comments in configuration files can cause some real nuisance to the maintenance of real projects,
+
+[literate programming](https://en.wikipedia.org/wiki/Literate_programming).
+
+
+
+
+
+especially when the configuration is one that will . 
+
+
+
+
+, due to the exact same reason that it lacks the ability to add comments.
+
+
+
+
+
+
+
+
+
+
+
+
+
