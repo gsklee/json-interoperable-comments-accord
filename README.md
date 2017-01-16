@@ -1,17 +1,24 @@
 JSON Interoperable Comments Accord
 ==================================
 
-**JSONICA** <sup>/dʒeɪˈsɒnɪkə/</sup> is a proposed convention for enabling a / degree of comments interoperability between JSON and other data interchange formats.
+**JSONICA** <sup>/dʒeɪˈsɒnɪkə/</sup> is a proposed convention for enabling a reasonable degree of comments interoperability between JSON and other data interchange formats. It is not a “yet-another” new file format.
 
 Introduction
 ------------
 
-JSONICA is not a "yet-another" new file format; it's just a
+### What is JSON?
+
+JSON is a “lightweight data interchange format”<sup>[[1]](http://www.json.org/)</sup> designed to “facilitate structured data interchange between all programming languages”<sup>[[2]](https://www.ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf)</sup>. The format has enjoyed a great success in fulfilling that vision, receiving widespread adoption; however, such popularity
+
+
+
 
 
 
 
 This document attempts to specify a standards-compliant JSON format that enables **comments interoperability** with other data serialization formats (eg. [TOML](https://github.com/toml-lang/toml), YAML, XML). The specification is intended to be a reference for module authors, and the format is intended to be generated and consumed solely by programs. While possible, it is not designed to be read or written by humans directly.
+
+### What is JSONICA?
 
 Example
 -------
