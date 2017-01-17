@@ -8,9 +8,9 @@ Introduction
 
 ### What is JSON?
 
-JSON is a “lightweight data interchange format”<sup>[[1]](http://www.json.org/)</sup> designed to “facilitate structured data interchange between all programming languages”<sup>[[2]](https://www.ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf)</sup>. The format has enjoyed a great success in fulfilling that vision, receiving widespread adoption; however, such popularity has also led to an unwitting predicament.
+JSON is a “lightweight data interchange format”<sup>[[1]](http://www.json.org/)</sup> designed to “facilitate structured data interchange between all programming languages”.<sup>[[2]](https://www.ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf)</sup> The format has enjoyed a great success in fulfilling that vision, receiving widespread adoption; however, such popularity has also led to an unwitting predicament.
 
-In order to guarantee data interoperability, a fundamental requirement for all data interchange formats, JSON does not allow for comments<sup>[[3]](https://plus.google.com/+DouglasCrockfordEsq/posts/RK8qyGVaGSr)</sup>.
+In order to guarantee data interoperability, a fundamental requirement for all data interchange formats, JSON does not allow for comments<sup>.[[3]](https://plus.google.com/+DouglasCrockfordEsq/posts/RK8qyGVaGSr)</sup>
 
 
 
