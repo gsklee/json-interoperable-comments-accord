@@ -1,7 +1,7 @@
 JSON Interoperable Comments Accord
 ==================================
 
-<ruby>**JSONICA**<rt>/dʒeɪˈsɒnɪkə/</rt></ruby> is a proposed convention for enabling a reasonable degree of comments interoperability between JSON and other data interchange formats. It is not a “yet-another” new file format.
+<ruby>**JSONICA**<rt>/dʒeɪˈsɒnɪkə/</rt></ruby> is a proposed convention for enabling a reasonable degree of comments interoperability between JSON and other data interchange formats or interfaces. It is not a “yet-another” new file format.
 
 Introduction
 ------------
@@ -10,7 +10,7 @@ Introduction
 
 JSON is a “lightweight data interchange format”<sup>[[1]](http://www.json.org/)</sup> designed to “facilitate structured data interchange between all programming languages”<sup>[[2]](https://www.ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf)</sup>. The format has enjoyed a great success in fulfilling that vision, receiving widespread adoption; however, such popularity has also led to an unwitting predicament.
 
-
+In order to guarantee data interoperability - a fundamental requirement for a data interchange format - comments are not allowed in JSON <sup>[[3]](https://plus.google.com/+DouglasCrockfordEsq/posts/RK8qyGVaGSr)</sup>.
 
 
 
